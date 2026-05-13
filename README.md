@@ -82,7 +82,7 @@ Original Query:
 What is aws iam?
 
 Enhanced Query:
-Amazon Web Services Identity and access management(IAM)
+What is Amazon Web Services Identity and access management(IAM)?
 ```
 
 ---

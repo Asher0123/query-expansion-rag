@@ -130,7 +130,6 @@ class GenerativeModel:
 
         for phrase, replacements in self.phrase_expansions.items():
             if phrase in enhanced_query:
-                # Using random choice as per typical AI behavior
                 replacement = replacements[0]
                 enhanced_query = enhanced_query.replace(phrase, replacement)
 

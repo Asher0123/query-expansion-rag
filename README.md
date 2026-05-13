@@ -144,7 +144,7 @@ retrieval_benchmark.md
 
 ## Precision@K
 
-Precision@K measures retrieval quality:
+Precision@K measures the relevance quality of retrieved chunks:
 
 ```text
 Precision@K = Relevant Retrieved Chunks / K
@@ -158,7 +158,86 @@ The benchmark demonstrates that AI-enhanced query expansion improves:
 
 ---
 
-## Tech Stack
+## Project Structure
+
+```text
+query-expansion-rag/
+│
+├── src/
+│   ├── loaders.py
+│   ├── splitter.py
+│   ├── embedder.py
+│   ├── mock_generator.py
+│   ├── exceptions.py
+│   └── main.py
+│
+├── tests/
+├── vectorstore/
+├── retrieval_benchmark.md
+├── requirements.txt
+└── README.md
+```
+---
+
+## Installation
+
+### Clone Repository
+
+```bash
+git clone https://github.com/<your-username>/query-expansion-rag.git
+```
+
+---
+
+### Create Virtual Environment
+
+```bash
+python -m venv venv
+```
+
+---
+
+### Activate Environment
+
+#### Windows
+
+```bash
+venv\Scripts\activate
+```
+
+#### Linux / MacOS
+
+```bash
+source venv/bin/activate
+```
+
+---
+
+### Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+### Run Project
+
+```bash
+python src/main.py
+```
+
+---
+
+### Run Tests
+
+```bash
+pytest
+```
+
+---
+
+### Tech Stack
 
 - Python
 - FAISS

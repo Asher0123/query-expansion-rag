@@ -150,11 +150,3 @@ if __name__=='__main__':
     with open("query.json", "w", encoding='utf-8') as f:
         json.dump([data], f, indent=3, ensure_ascii=False)
 
-    strategy_a_labels = ["High", "Medium", "Medium", "Low"]
-    strategy_b_labels = ["High", "High", "High", "Medium"]
-
-    precision_a = precision_at_k(strategy_a_labels, 4)
-    precision_b = precision_at_k(strategy_b_labels, 4)
-
-    print(f"\nStrategy A Precision@4: {precision_a:.2f}")
-    print(f"Strategy B Precision@4: {precision_b:.2f}")

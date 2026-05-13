@@ -117,6 +117,9 @@ if __name__=='__main__':
 
     retrieve=Retriever(embedder= MockTextEmbeddingModel(model=SentenceTransformer("all-MiniLM-L6-v2"), method_name='encode'))
 
+    # An AWS Introduction document was used for development and testing.
+    #C:\D Folder\AWS\AWS.pdf
+
     path = input("Enter document path: ")
     
     retrieve.ingest(path)

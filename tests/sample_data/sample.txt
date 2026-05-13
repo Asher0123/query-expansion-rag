@@ -1,0 +1,100 @@
+Chapter 1
+Introduction to AWS
+
+1.1	ABOUT THE COMPANY 
+In the guise of web services, or cloud computing as it is now more popularly known, Amazon Web Services (AWS) started providing IT infrastructure services to businesses. The ability to replace upfront capital infrastructure costs with low variable costs that grow with your organization is one of the main advantages of cloud computing. Businesses don't have to prepare for and buy servers and other IT infrastructure in advance thanks to the Cloud. Instead, they can quickly put-up hundreds of thousands of servers and produce results more quickly.
+
+AWS is inexpensive, flexible, and provides immediate elasticity. In addition to being secure, it is also open and flexible. Our websites and applications can be hosted on AWS. We can combine our backup and storage with resourceful IT to offer material all across the world. Additionally, we can manage databases.
+
+
+1.2	ABOUT THE AWS TRAINING
+An AWS Certification is a credential issued by AWS to individuals who show they have specific knowledge, skills, and abilities. We work with AWS experts to set the bar for required experience in common cloud job roles and expertise in specific technical areas. You can show you meet that bar by taking—and passing—one of our AWS Certification exams. When you do, AWS awards you an AWS Certification.[1]
+
+	Getting AWS Certified can help you propel your career, whether you’re looking to find a new role, showcase your skills to take on a new project, or become your team’s go-to expert. And because AWS Certification exams are created by experts in the relevant role or technical area, preparing for one of these exams helps you build the required skills identified by skilled practitioners in the field.[1]
+
+
+Chapter 2
+Introduction to Cloud Computing
+
+2.1 INTRODUCTION
+	In order to provide quicker innovation, adaptable resources, and scale economies, cloud computing is the supply of computing services over the internet (the "Cloud"), including servers, storage, networking, software, analytics, and intelligence. Data and apps that are stored and run in the cloud as opposed to on a local machine are referred to as "cloud computing." A client in computing is anything that a user uses to communicate with a computer server, such as a desktop program or web browser. A server could be a virtual server service like Amazon Elastic Compute Cloud (Amazon EC2).
+Consider a scenario in which a client asks for a news item, the result of an online game, or a humorous video. 
+
+2.2 CLOUD DEPLOYMENT METHODS
+
+	2.2.1 Cloud Based Deployment
+•	Run the entire program from the cloud.
+•	Implement cloud migration for current apps. 
+•	Create and create new cloud-based applications.
+2.2.2 Hybrid Deployment
+•	Deploy resources by using virtualization and resource management tools.
+•	Increase resource utilization by using application management and virtualization technologies.
+2.2.3 On-premise Deployment
+•	Connect cloud-based resources to on-premises infrastructure.
+•	Integrate cloud-based resources with legacy IT applications.
+
+2.3 BENEFITS OF CLOUD COMPUTING
+1. Trade upfront expense for variable expense:
+Upfront expense refers to data centers, physical servers, and other resources that you would need to invest in before using them. Variable expense means you only pay for computing resources you consume instead of investing heavily in data centers and servers before you know how you’re going to use them. By taking a cloud computing approach that offers the benefit of variable expense, companies can implement innovative solutions while saving on costs.
+
+2.	Stop spending money to run and maintain data centers:
+Computing in data centers often requires you to spend more money and time managing infrastructure and servers. A benefit of cloud computing is the ability to focus less on these tasks and more on your applications and customers.
+
+
+3.	Stop guessing capacity
+With cloud computing, you don’t have to predict how much infrastructure capacity you will need before deploying an application. 
+For example, you can launch Amazon EC2 instances when needed, and pay only for the compute time you use. Instead of paying for unused resources or having to deal with limited capacity, you can access only the capacity that you need. You can also scale in or scale out in response to demand.
+
+
+4.	Benefit from massive economies of scale:
+By using cloud computing, you can achieve a lower variable cost than you can get o your own. Because usage from hundreds of thousands of customers can aggregate in the cloud, providers, such as AWS, can achieve higher economies of scale. The economy of scale translates into lower pay-as-you-go prices. 
+
+5.	Increase speed and agility:
+The flexibility of cloud computing makes it easier for you to develop and deploy applications. This flexibility provides you with more time to experiment and innovate. When computing in data centers, it may take weeks to obtain new resources that you need. By comparison, cloud computing enables you to access new resources within minutes.
+
+
+6.	Go global in minutes
+
+The global footprint of the AWS Cloud enables you to deploy applications to customers around the world quickly, while providing them with low latency. This means that even if you are located in a different part of the world than your customers, customers are able to access your applications with minimal delays. 
+
+Chapter 4
+Compute in the cloud
+
+4.1 INTRODUCTION:
+Amazon Elastic Compute Cloud (Amazon EC2) provides secure, resizable compute capacity in the cloud as Amazon EC2 instances. 
+Imagine you are responsible for the architecture of your company's resources and need to support new websites. With traditional on-premises resources, you have to do the following:
+•	Spend money upfront to purchase hardware.
+•	Wait for the servers to be delivered to you.
+•	Install the servers in your physical data center.
+•	Make all the necessary configurations.
+
+4.2	AMAZON EC2 INSTANCE TYPES
+Amazon EC2 instance types are optimized for different tasks. When selecting an instance type, consider the specific needs of your workloads and applications. This might include requirements for compute, memory, or storage capabilities.
+
+1.	General purpose instances:
+
+      General purpose instances provide a balance of compute, memory, and networking resources. You can use them for a variety of workloads, such as:
+•	application servers
+•	gaming servers
+•	backend servers for enterprise applications
+•	small and medium databases
+
+2.	Compute optimized instances:
+Compute optimized instances are ideal for compute-bound applications that benefit from high-performance processors. Like general purpose instances, you can use compute optimized instances for workloads such as web, application, and gaming servers.
+
+However, the difference is compute optimized applications are ideal for high-performance web servers, compute-intensive applications servers, and dedicated gaming servers. You can also use compute optimized instances for batch processing workloads that require processing many transactions in a single group.
+
+3.	Memory optimized instances:
+Memory optimized instances are designed to deliver fast performance for workloads that process large datasets in memory. In computing, memory is a temporary storage area. It holds all the data and instructions that a central processing unit (CPU) needs to be able to complete actions. Before a computer program or application is able to run, it is loaded from storage into memory. This preloading process gives the CPU direct access to the computer program.
+
+Suppose that you have a workload that requires large amounts of data to be preloaded before running an application. This scenario might be a high-performance database or a workload that involves performing real-time processing of a large amount of unstructured data. In these types of use cases, consider using a memory optimized instance. Memory optimized instances enable you to run workloads with high memory needs and receive great performance.
+
+4.	Accelerated computing instances:
+
+Accelerated computing instances use hardware accelerators, or coprocessors, to perform some functions more efficiently than is possible in software running on CPUs. Examples of these functions include floating-point number calculations, graphics processing, and data pattern matching.
+
+In computing, a hardware accelerator is a component that can expedite data processing. Accelerated computing instances are ideal for workloads such as graphics applications, game streaming, and application streaming.
+
+
+5.	Storage optimized instances:
+Storage optimized instances are designed for workloads that require high, sequential read and write access to large datasets on local storage. Examples of workloads suitable for storage optimized instances include distributed file systems, data warehousing applications, and high-frequency online transaction processing (OLTP) systems.

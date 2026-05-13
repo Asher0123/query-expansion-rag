@@ -5,7 +5,7 @@ A modular Retrieval-Augmented Generation (RAG) pipeline implementing semantic ve
 
 ---
 
-# Overview
+## Overview
 
 This project was developed as part of a GenAI assessment focused on:
 
@@ -17,17 +17,17 @@ This project was developed as part of a GenAI assessment focused on:
 
 The system compares two retrieval strategies:
 
-## Strategy A — Raw Vector Search
+### Strategy A — Raw Vector Search
 
 Direct embedding-based semantic retrieval.
 
-## Strategy B — AI-Enhanced Retrieval
+### Strategy B — AI-Enhanced Retrieval
 
 Query rewriting/expansion before semantic retrieval.
 
 ---
 
-# Features
+## Features
 
 - Semantic vector retrieval using FAISS
 - Query expansion using a mocked generative model
@@ -41,7 +41,7 @@ Query rewriting/expansion before semantic retrieval.
 
 ---
 
-# Architecture
+## Architecture
 
 ```text
 Document
@@ -61,15 +61,15 @@ Benchmark Evaluation
 
 ---
 
-# Retrieval Strategies
+## Retrieval Strategies
 
-## Strategy A — Raw Retrieval
+### Strategy A — Raw Retrieval
 
 ```text
 Query → Embedding → Vector Search
 ```
 
-## Strategy B — AI-Enhanced Retrieval
+### Strategy B — AI-Enhanced Retrieval
 
 ```text
 Query → Query Expansion → Embedding → Vector Search
@@ -87,7 +87,7 @@ Amazon Web Services Identity and access management(IAM)
 
 ---
 
-# Similarity Metric Choice
+## Similarity Metric Choice
 
 This project uses **Cosine Similarity** for semantic retrieval.
 
@@ -109,7 +109,7 @@ Cosine similarity is preferred for semantic search because transformer-based emb
 
 ---
 
-# Cosine Similarity vs Euclidean Distance
+## Cosine Similarity vs Euclidean Distance
 
 | Metric | Best Use Case |
 |---|---|
@@ -124,7 +124,7 @@ Cosine similarity performs better for:
 
 ---
 
-# Benchmarking
+## Benchmarking
 
 The project benchmarks:
 - Raw semantic retrieval
@@ -142,7 +142,7 @@ retrieval_benchmark.md
 
 ---
 
-# Precision@K
+## Precision@K
 
 Precision@K measures retrieval quality:
 
@@ -158,7 +158,7 @@ The benchmark demonstrates that AI-enhanced query expansion improves:
 
 ---
 
-# Tech Stack
+## Tech Stack
 
 - Python
 - FAISS

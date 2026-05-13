@@ -10,7 +10,7 @@ class EmbeddingError(Exception):
     """Raised when embedding generation fails."""
 
 
-class VectorStoreError(Exception):
+class RetrievalError(Exception):
     """Raised when vector retrieval fails."""
 
 
